@@ -1,0 +1,494 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-container {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.post-details {
+    flex-grow: 1;
+}
+
+.post-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-approve {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-reject {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+
+
+
+
+
+h2 {
+    color: #4CAF50;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Username Styling */
+.username {
+    font-weight: bold;
+    color: #FF5722;
+}
+
+/* Table Styling */
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.report-table th, .report-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.report-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+}
+
+.report-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.report-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Table Cell and Text Styling */
+.report-table td {
+    color: #333;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.job-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.job-table th, .job-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.job-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.job-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.job-table tr:hover {
+    background-color: #ddd;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+
+
+
+/* Alert Messages */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+
+
+
+/* Style for the table */
+/* Style for the commission container */
+.commission-container {
+    width: 50%; /* Decrease the width of the container */
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto; /* Use auto margins to center the container */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.commission-container h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.commission-container h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style for the table */
+.payments-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.payments-table th, .payments-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.payments-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.payments-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.payments-table tr:hover {
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Search bar styling */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+input[type="text"] {
+    padding: 6px;
+    width: 150px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: inline-block;
+}
+
+td form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content */
+}
+
+td form input {
+    margin: 3px 0;
+}
+
+td form button {
+    margin-top: 10px;
+    padding: 6px 12px;
+    width: 50% im; /* 50% width for buttons */
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Update button styling - yellow */
+td form button[name="update_user"] {
+    background-color: yellow;
+    color: black;
+    border: 1px solid #ddd;
+}
+
+td form button[name="update_user"]:hover {
+    background-color: #f7e600; /* Darker yellow on hover */
+}
+
+/* Delete button styling - red */
+td form button[name="delete_user"] {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+td form button[name="delete_user"]:hover {
+    background-color: darkred;
+}
+
+
+    /* Centering buttons inside the column */
+    td {
+        text-align: center; /* Center contents of the <td> */
+        vertical-align: middle; /* Vertical centering */
+    }
+
+    /* Centering form elements inside the cell */
+    td form {
+        display: inline-block; /* Allow the form to be treated as a block for centering */
+        margin-bottom: 10px; /* Adds space between the forms */
+    }
+
+    /* Buttons styling */
+    td form button[name="update_user"] {
+        background-color: yellow;
+        color: black;
+        border: 1px solid #ddd;
+        width: 49%; /* Set the width of the buttons */
+        padding: 8px;
+    }
+
+    td form button[name="update_user"]:hover {
+        background-color: #f7e600; /* Slightly darker yellow on hover */
+    }
+
+    td form button[name="delete_user"] {
+        background-color: red;
+        color: white;
+        border: none;
+        width: 50%;
+        padding: 8px;
+    }
+
+    td form button[name="delete_user"]:hover {
+        background-color: darkred;
+    }
+
+
+
+
+
+
+
+   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .dashboard-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Set to always display 3 items in a row */
+        gap: 20px;
+        width: 100%;
+        padding: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .box {
+        background-color: #4CAF50; /* Green color matching the table header */
+        color: white;
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .box:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .box i {
+        font-size: 3em;
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .box h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .box p {
+        font-size: 1em;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .box a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .box::before {
+        content: '';
+        position: absolute;
+        width: 200%;
+        height: 200%;
+        top: -75%;
+        left: -75%;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        transition: all 0.5s;
+        z-index: 0;
+    }
+
+    .box:hover::before {
+        top: 50%;
+        left: 50%;
+        width: 300%;
+        height: 300%;
+    }
+
+    .box-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    @media(max-width: 900px) {
+        .dashboard-container {
+            grid-template-columns: repeat(2, 1fr); 
+        }
+    }
+
+    @media(max-width: 600px) {
+        .dashboard-container {
+            grid-template-columns: repeat(1, 1fr); /* For very small screens, show 1 item per row */
+        }
+    }
